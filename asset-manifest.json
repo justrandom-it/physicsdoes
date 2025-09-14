@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/physicsdoes/static/css/main.a2a63019.css",
-    "main.js": "/physicsdoes/static/js/main.820adc7c.js",
+    "main.js": "/physicsdoes/static/js/main.28b2afc9.js",
     "static/js/453.6f11ad5b.chunk.js": "/physicsdoes/static/js/453.6f11ad5b.chunk.js",
     "static/media/bg1.jpg": "/physicsdoes/static/media/bg1.a54fb8695aa0fbbb127f.jpg",
     "index.html": "/physicsdoes/index.html",
     "main.a2a63019.css.map": "/physicsdoes/static/css/main.a2a63019.css.map",
-    "main.820adc7c.js.map": "/physicsdoes/static/js/main.820adc7c.js.map",
+    "main.28b2afc9.js.map": "/physicsdoes/static/js/main.28b2afc9.js.map",
     "453.6f11ad5b.chunk.js.map": "/physicsdoes/static/js/453.6f11ad5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2a63019.css",
-    "static/js/main.820adc7c.js"
+    "static/js/main.28b2afc9.js"
   ]
 }
