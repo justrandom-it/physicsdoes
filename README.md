@@ -39,6 +39,21 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Code It
+
+Solve real-world physics problems through programming! This section features computational solutions to physics challenges using:
+
+- **Java** - Object-oriented approach to physics simulations
+- **Python** - Scientific computing with NumPy and SciPy
+- **C++** - High-performance numerical calculations
+
+### Featured Problems
+- Projectile motion with air resistance
+- Orbital mechanics and satellite trajectories
+- Wave interference and diffraction patterns
+- Thermodynamics and heat transfer simulations
+- Electromagnetic field calculations
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +83,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributing to Code It
+
+To contribute physics coding solutions:
+1. Create solutions in `/src/physics-problems/`
+2. Include problem description and mathematical background
+3. Provide well-commented code in Java, Python, or C++
+4. Add visualization or output examples where applicable

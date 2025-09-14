@@ -1,0 +1,129 @@
+.personalities {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.personalities h1 {
+  text-align: center;
+  color: #63b3ed;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #cbd5e0;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.personalities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.personality-card {
+  background: rgba(45, 55, 72, 0.9);
+  border-radius: 15px;
+  border: 1px solid rgba(99, 179, 237, 0.3);
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.personality-card:hover {
+  transform: translateY(-5px);
+  border-color: #63b3ed;
+  box-shadow: 0 15px 40px rgba(99, 179, 237, 0.2);
+}
+
+.personality-header {
+  background: #1a202c;
+  padding: 1.5rem;
+  border-bottom: 1px solid #4a5568;
+}
+
+.personality-header h2 {
+  color: #63b3ed;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.field {
+  background: #4299e1;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.personality-content {
+  padding: 1.5rem;
+}
+
+.achievement {
+  color: #e2e8f0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.achievement strong {
+  color: #63b3ed;
+}
+
+blockquote {
+  background: #1a202c;
+  padding: 1rem;
+  border-left: 4px solid #63b3ed;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #cbd5e0;
+}
+
+.description {
+  color: #e2e8f0;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contributions h4 {
+  color: #63b3ed;
+  margin-bottom: 0.8rem;
+}
+
+.contributions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contributions li {
+  color: #cbd5e0;
+  padding: 0.3rem 0;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.contributions li:before {
+  content: "▸";
+  color: #4299e1;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .personalities {
+    padding: 1rem;
+  }
+  
+  .personalities-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .personality-card {
+    margin: 0;
+  }
+}

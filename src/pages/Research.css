@@ -1,0 +1,88 @@
+.research {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .research {
+    padding: 1rem;
+  }
+}
+
+.research h1 {
+  text-align: center;
+  color: #63b3ed;
+  margin-bottom: 2rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.research-card {
+  background: #2d3748;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #4a5568;
+}
+
+@media (max-width: 768px) {
+  .research-card {
+    padding: 1.5rem;
+  }
+}
+
+.research-card h3 {
+  color: #63b3ed;
+  margin-bottom: 0.5rem;
+}
+
+.professor {
+  color: #4299e1;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  background: #1a202c;
+  padding: 1rem;
+  border-left: 4px solid #63b3ed;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #e2e8f0;
+}
+
+.description {
+  color: #cbd5e0;
+  line-height: 1.6;
+}
+
+.physics-goal {
+  background: #1a202c;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #4a5568;
+}
+
+.physics-goal h2 {
+  color: #63b3ed;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.physics-goal p {
+  color: #cbd5e0;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
